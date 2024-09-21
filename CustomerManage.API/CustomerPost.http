@@ -1,0 +1,37 @@
+@CustomerManage.API_HostAddress = https://localhost:7029
+
+###
+POST  https://localhost:7029/customer/15514665/score/112
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/81546541/score/114
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/1745431/score/120
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/254814111/score/96
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/53274324/score/120
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/6144320/score/93
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/8009471/score/93
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/38819/score/92
+Accept: application/json
+
+###
+POST  https://localhost:7029/customer/76786448/score/78
+Accept: application/json

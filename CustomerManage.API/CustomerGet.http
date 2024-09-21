@@ -1,0 +1,17 @@
+﻿@CustomerManage.API_HostAddress = https://localhost:7029
+
+###
+Get https://localhost:7029/customer/leaderboard?start=1&end=11
+Accept: application/json
+
+###
+GET https://localhost:7029/customer/leaderboard?start=5&end=6
+Accept: application/json
+
+###
+GET https://localhost:7029/customer/leaderboard/15514665?high=2&low=3
+Accept: application/json
+
+###
+GET https://localhost:7029/customer/leaderboard/254814111?high=2&low=4
+Accept: application/json
