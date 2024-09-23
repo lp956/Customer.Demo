@@ -14,6 +14,10 @@ namespace CustomerManage.API
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
+            builder.WebHost.ConfigureKestrel(options =>
+            {
+                options.Limits.MaxConcurrentConnections = 10000 * 1000;
+            });
             builder.Services.AddSwaggerGen();
             builder.Services.AddMediatR(config => config.RegisterServicesFromAssemblyContaining<Program>());
 

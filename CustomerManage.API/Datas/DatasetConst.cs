@@ -40,7 +40,7 @@ namespace CustomerManage.API.Datas
                         else right = mid - 1;                        
                     }
                 }
-                newCustomer.Rank = left + 1;
+                //newCustomer.Rank = left + 1;
                 RankSortList.Insert(left, newCustomer);                
             }
             catch (Exception ex)

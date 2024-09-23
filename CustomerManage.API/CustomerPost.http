@@ -33,5 +33,5 @@ POST  https://localhost:7029/customer/38819/score/92
 Accept: application/json
 
 ###
-POST  https://localhost:7029/customer/76786448/score/78
+POST  https://localhost:7029/customer/76786448/score/79
 Accept: application/json
